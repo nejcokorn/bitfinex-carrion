@@ -1,0 +1,144 @@
+{
+	"buy": true,
+	"sell": true,
+	"apiKey": "",
+	"apiSecret": "",
+	"pairs": [
+		{
+			"pair": "DOGUST",
+			"mainCurrency": "UST",
+			"cryptoCurrency": "DOG",
+			"buy": true,
+			"sell": true,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 1.9,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 0.00005,
+					"maxAmount": 0.00002
+				}
+			]
+		},
+		{
+			"pair": "IDXUST",
+			"mainCurrency": "UST",
+			"cryptoCurrency": "IDX",
+			"buy": false,
+			"sell": true,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 30,
+					"maxAmount": 20
+				}
+			]
+		},
+		{
+			"pair": "AVAX:UST",
+			"mainCurrency": "UST",
+			"cryptoCurrency": "AVAX",
+			"buy": false,
+			"sell": false,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 0.3,
+					"maxAmount": 0.3
+				}
+			]
+		},
+		{
+			"pair": "IQXUST",
+			"mainCurrency": "UST",
+			"cryptoCurrency": "IQX",
+			"buy": false,
+			"sell": false,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 1300,
+					"maxAmount": 986
+				}
+			]
+		},
+		{
+			"pair": "MOBUST",
+			"mainCurrency": "UST",
+			"cryptoCurrency": "MOB",
+			"buy": false,
+			"sell": false,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 0.4,
+					"maxAmount": 0.2
+				}
+			]
+		},
+		{
+			"pair": "ETH2X:UST",
+			"mainCurrency": "UST",
+			"cryptoCurrency": "ETH2X",
+			"buy": true,
+			"sell": true,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 0.004,
+					"maxAmount": 0.002
+				}
+			]
+		},
+		{
+			"pair": "ANCUST",
+			"mainCurrency": "UST",
+			"cryptoCurrency": "ANC",
+			"buy": false,
+			"sell": false,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 15,
+					"maxAmount": 10
+				}
+			]
+		},
+		{
+			"pair": "JSTUSD",
+			"mainCurrency": "UST",
+			"cryptoCurrency": "JST",
+			"buy": true,
+			"sell": true,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 100,
+					"maxAmount": 150
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,484 @@
+{
+	"buy": true,
+	"sell": true,
+	"apiKey": "",
+	"apiSecret": "",
+	"pairs": [
+		{
+			"pair": "MLNUSD",
+			"mainCurrency": "USD",
+			"cryptoCurrency": "MLN",
+			"buy": false,
+			"sell": false,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 0.15,
+					"maxAmount": 0.06
+				}
+			]
+		},
+		{
+			"pair": "DOGUSD",
+			"mainCurrency": "USD",
+			"cryptoCurrency": "DOG",
+			"buy": false,
+			"sell": false,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 1.9,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 0.00005,
+					"maxAmount": 0.00002
+				}
+			]
+		},
+		{
+			"pair": "GOTUSD",
+			"mainCurrency": "USD",
+			"cryptoCurrency": "GOT",
+			"buy": false,
+			"sell": false,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 60,
+					"maxAmount": 60
+				}
+			]
+		},
+		{
+			"pair": "RRTUSD",
+			"mainCurrency": "USD",
+			"cryptoCurrency": "RRT",
+			"buy": false,
+			"sell": false,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 70,
+					"maxAmount": 70
+				}
+			]
+		},
+		{
+			"pair": "AVAX:USD",
+			"mainCurrency": "USD",
+			"cryptoCurrency": "AVAX",
+			"buy": false,
+			"sell": false,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 0.3,
+					"maxAmount": 0.3
+				}
+			]
+		},
+		{
+			"pair": "BFTUSD",
+			"mainCurrency": "USD",
+			"cryptoCurrency": "BFT",
+			"buy": false,
+			"sell": false,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 300,
+					"maxAmount": 250
+				}
+			]
+		},
+		{
+			"pair": "IDXUSD",
+			"mainCurrency": "USD",
+			"cryptoCurrency": "IDX",
+			"buy": false,
+			"sell": true,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 30,
+					"maxAmount": 20
+				}
+			]
+		},
+		{
+			"pair": "FORTH:USD",
+			"mainCurrency": "USD",
+			"cryptoCurrency": "FORTH",
+			"buy": false,
+			"sell": false,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 0.5,
+					"maxAmount": 0.01
+				}
+			]
+		},
+		{
+			"pair": "OMNUSD",
+			"mainCurrency": "USD",
+			"cryptoCurrency": "OMN",
+			"buy": false,
+			"sell": false,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 1.2,
+					"maxAmount": 0.6
+				}
+			]
+		},
+		{
+			"pair": "EDOUSD",
+			"mainCurrency": "USD",
+			"cryptoCurrency": "EDO",
+			"buy": false,
+			"sell": false,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 10,
+					"maxAmount": 4
+				}
+			]
+		},
+		{
+			"pair": "QSHUSD",
+			"mainCurrency": "USD",
+			"cryptoCurrency": "QSH",
+			"buy": false,
+			"sell": false,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 500,
+					"maxAmount": 300
+				}
+			]
+		},
+		{
+			"pair": "PLUUSD",
+			"mainCurrency": "USD",
+			"cryptoCurrency": "PLU",
+			"buy": false,
+			"sell": false,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 2,
+					"maxAmount": 0.5
+				}
+			]
+		},
+		{
+			"pair": "IQXUSD",
+			"mainCurrency": "USD",
+			"cryptoCurrency": "IQX",
+			"buy": false,
+			"sell": false,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 1300,
+					"maxAmount": 986
+				}
+			]
+		},
+		{
+			"pair": "DGBUSD",
+			"mainCurrency": "USD",
+			"cryptoCurrency": "DGB",
+			"buy": false,
+			"sell": false,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 90,
+					"maxAmount": 76
+				}
+			]
+		},
+		{
+			"pair": "ESSUSD",
+			"mainCurrency": "USD",
+			"cryptoCurrency": "ESS",
+			"buy": false,
+			"sell": false,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 5000,
+					"maxAmount": 3636
+				}
+			]
+		},
+		{
+			"pair": "KANUSD",
+			"mainCurrency": "USD",
+			"cryptoCurrency": "KAN",
+			"buy": false,
+			"sell": false,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 600,
+					"maxAmount": 430
+				}
+			]
+		},
+		{
+			"pair": "CTKUSD",
+			"mainCurrency": "USD",
+			"cryptoCurrency": "CTK",
+			"buy": false,
+			"sell": false,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 6,
+					"maxAmount": 1
+				}
+			]
+		},
+		{
+			"pair": "ZCNUSD",
+			"mainCurrency": "USD",
+			"cryptoCurrency": "ZCN",
+			"buy": false,
+			"sell": false,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 13,
+					"maxAmount": 10
+				}
+			]
+		},
+		{
+			"pair": "WBTUSD",
+			"mainCurrency": "USD",
+			"cryptoCurrency": "WBT",
+			"buy": false,
+			"sell": false,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 0.0003,
+					"maxAmount": 0.0002
+				}
+			]
+		},
+		{
+			"pair": "GNOUSD",
+			"mainCurrency": "USD",
+			"cryptoCurrency": "GNO",
+			"buy": false,
+			"sell": false,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 0.02,
+					"maxAmount": 0.01
+				}
+			]
+		},
+		{
+			"pair": "MOBUSD",
+			"mainCurrency": "USD",
+			"cryptoCurrency": "MOB",
+			"buy": false,
+			"sell": false,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 0.4,
+					"maxAmount": 0.2
+				}
+			]
+		},
+		{
+			"pair": "ICEUSD",
+			"mainCurrency": "USD",
+			"cryptoCurrency": "ICE",
+			"buy": true,
+			"sell": true,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 6,
+					"maxAmount": 4
+				}
+			]
+		},
+		{
+			"pair": "ETH2X:USD",
+			"mainCurrency": "USD",
+			"cryptoCurrency": "ETH2X",
+			"buy": true,
+			"sell": true,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 0.004,
+					"maxAmount": 0.002
+				}
+			]
+		},
+		{
+			"pair": "XRAUSD",
+			"mainCurrency": "USD",
+			"cryptoCurrency": "XRA",
+			"buy": false,
+			"sell": false,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 350,
+					"maxAmount": 196
+				}
+			]
+		},
+		{
+			"pair": "ANCUSD",
+			"mainCurrency": "USD",
+			"cryptoCurrency": "ANC",
+			"buy": false,
+			"sell": false,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 20,
+					"maxAmount": 25
+				}
+			]
+		},
+		{
+			"pair": "GNTUSD",
+			"mainCurrency": "USD",
+			"cryptoCurrency": "GNT",
+			"buy": false,
+			"sell": true,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 10,
+					"maxAmount": 7
+				}
+			]
+		},
+		{
+			"pair": "DGBUSD",
+			"mainCurrency": "USD",
+			"cryptoCurrency": "DGB",
+			"buy": true,
+			"sell": true,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 250,
+					"maxAmount": 300
+				}
+			]
+		},
+		{
+			"pair": "JSTUSD",
+			"mainCurrency": "USD",
+			"cryptoCurrency": "JST",
+			"buy": true,
+			"sell": true,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.02,
+					"amount": 100,
+					"maxAmount": 150
+				}
+			]
+		}
+	]
+}

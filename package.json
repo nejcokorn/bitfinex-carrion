@@ -1,0 +1,18 @@
+{
+  "name": "carrion",
+  "version": "1.0.0",
+  "description": "Detect other carrions - stupid ones - set hidden orders in case there are issues",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^5.0.0",
+    "crypto-js": "^4.0.0",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2",
+    "ws": "^7.4.3"
+  }
+}

@@ -1,0 +1,42 @@
+{
+	"buy": true,
+	"sell": true,
+	"apiKey": "",
+	"apiSecret": "",
+	"pairs": [
+		{
+			"pair": "DOGBTC",
+			"mainCurrency": "BTC",
+			"cryptoCurrency": "DOG",
+			"buy": false,
+			"sell": false,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 1.9,
+					"lookupDepth": 2,
+					"offset": 0.03,
+					"amount": 0.00005,
+					"maxAmount": 0.00002
+				}
+			]
+		},
+		{
+			"pair": "EDOBTC",
+			"mainCurrency": "BTC",
+			"cryptoCurrency": "EDO",
+			"buy": false,
+			"sell": false,
+			"strategies": [
+				{
+					"type": "spread",
+					"minSpread": 2,
+					"lookupDepth": 2,
+					"offset": 0.03,
+					"amount": 10,
+					"maxAmount": 4
+				}
+			]
+		}
+	]
+}
